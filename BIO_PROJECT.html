@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microbes and Milk . By Anish</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background: #000;
+      color: #eee;
+    }
+
+    header {
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle at top, #111, #000);
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #0ff;
+      text-shadow: 0 0 15px #0ff;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 10px;
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+
+    header .intro-box {
+      margin-top: 28px;
+      max-width: 680px;
+      background: #0a0a0a;
+      border: 1px solid #0ff3;
+      border-left: 3px solid #0ff;
+      padding: 18px 24px;
+      border-radius: 4px;
+      text-align: left;
+      color: #ccc;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    section {
+      padding: 50px 12%;
+    }
+
+    section:nth-child(even) {
+      background: #050505;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff;
+      margin-bottom: 16px;
+      border-left: 4px solid #0ff;
+      padding-left: 14px;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #ccc;
+      margin-bottom: 12px;
+    }
+
+    em {
+      color: #ff00ff;
+      font-style: italic;
+    }
+
+    .microbe {
+      background: #0a0a0a;
+      border: 1px solid #0ff3;
+      border-left: 3px solid #0ff;
+      padding: 14px 18px;
+      margin: 10px 0;
+      border-radius: 4px;
+    }
+
+    .microbe span {
+      color: #0ff;
+    }
+
+    .did-you-know {
+      background: #0a0a00;
+      border: 1px solid #ff0;
+      border-left: 3px solid #ff0;
+      padding: 14px 18px;
+      margin: 20px 0;
+      border-radius: 4px;
+      color: #ff0;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .did-you-know strong {
+      color: #fff;
+    }
+
+    .diagram-wrap {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .diagram-wrap p {
+      color: #0ff;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .diagram-wrap svg {
+      max-width: 520px;
+      width: 100%;
+      background: #0a0a0a;
+      border: 1px solid #0ff3;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+    }
+
+    .conclusion {
+      background: #050505;
+      border-top: 2px solid #0ff3;
+    }
+
+    .sources {
+      background: #000;
+      border-top: 2px solid #ff00ff33;
+    }
+
+    .sources ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sources ul li {
+      padding: 6px 0;
+      border-bottom: 1px solid #ffffff08;
+      color: #888;
+      font-size: 0.85rem;
+    }
+
+    .sources ul li a {
+      color: #0ff;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #050505;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8rem;
+      color: #444;
+      border-top: 1px solid #0ff2;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Microbes and Milk </h1>
+  <p>The Role of Microbes in Milk Production — by Anish :)</p>
+  <div class="intro-box">
+    Most people grab a bottle of milk without thinking twice about where it actually comes from.
+    Sure, it comes from cows — but how do cows produce milk all year round, even in winter when
+    there's no fresh grass? The answer is microbes. Tiny, invisible organisms like bacteria, fungi
+    and protozoa play a massive role at every stage — from inside the cow's gut, to the fields
+    they graze on, to the feed they eat in winter. Without microbes, there would be no milk.
+  </div>
+</header>
+
+<!-- SECTION 1: GUT MICROBES -->
+<section>
+  <h2>1. GUT MICROBES</h2>
+  <p>Cows cannot digest grass on their own. Their 1st stomach (they have 4) is packed with billions
+  of bacteria, protozoa and fungi that do it for them. They break down cellulose, starch and tough
+  plant fibres into fatty acids the cow absorbs for energy. The microbes themselves then get digested
+  further down, providing most of the cow's protein. Without these microbes the cow would starve
+  even if they ate.</p>
+
+  <p>The bacteria <em>Fibrobacter succinogenes</em> and <em>Ruminococcus albus</em> are responsible
+  for breaking down cellulose using enzymes. The protozoa <em>Entodinium caudatum</em> handles starch
+  and prevents dangerous bloat. The fungi <em>Neocallimastix frontalis</em> physically drills into the
+  toughest plant stems that bacteria can't reach. All of this happens in the rumen before the food
+  even reaches the real stomach.</p>
+
+  <div class="did-you-know">
+    💡 <strong>Did you know?</strong> The rumen can hold up to 40 litres of fermenting grass at once —
+    that's about the same as 5 large buckets. There are more microbes in one cow's rumen than there
+    are people on Earth.
+  </div>
+
+  <!-- RUMEN DIAGRAM -->
+  <div class="diagram-wrap">
+    <p>Ruminant Digestive System</p>
+    <svg viewBox="0 0 520 340">
+      <rect x="230" y="10" width="18" height="55" rx="6" fill="#1a6b4a" stroke="#0ff" stroke-width="1.5"/>
+      <text x="255" y="28" fill="#0ff" font-size="11" font-family="monospace">Oesophagus</text>
+      <line x1="253" y1="26" x2="248" y2="26" stroke="#0ff" stroke-width="1"/>
+      <ellipse cx="160" cy="180" rx="120" ry="95" fill="#1a3a2a" stroke="#0ff" stroke-width="2"/>
+      <text x="108" y="175" fill="#0ff" font-size="13" font-family="monospace" font-weight="bold">Rumen</text>
+      <text x="100" y="192" fill="#555" font-size="10" font-family="monospace">(fermentation)</text>
+      <ellipse cx="270" cy="215" rx="48" ry="42" fill="#1a2a3a" stroke="#ff00ff" stroke-width="1.5"/>
+      <text x="238" y="210" fill="#ff00ff" font-size="11" font-family="monospace">Reticulum</text>
+      <ellipse cx="360" cy="190" rx="42" ry="38" fill="#2a1a3a" stroke="#ff00ff" stroke-width="1.5"/>
+      <text x="332" y="186" fill="#ff00ff" font-size="11" font-family="monospace">Omasum</text>
+      <ellipse cx="420" cy="255" rx="52" ry="38" fill="#3a1a1a" stroke="#f55" stroke-width="1.5"/>
+      <text x="392" y="251" fill="#f55" font-size="11" font-family="monospace">Abomasum</text>
+      <text x="388" y="265" fill="#555" font-size="9" font-family="monospace">(true stomach)</text>
+      <path d="M440 285 Q460 300 440 315 Q420 330 440 340" fill="none" stroke="#aaa" stroke-width="2"/>
+      <text x="448" y="310" fill="#aaa" font-size="10" font-family="monospace">Small</text>
+      <text x="445" y="322" fill="#aaa" font-size="10" font-family="monospace">intestine</text>
+      <path d="M238 65 Q238 120 238 170" fill="none" stroke="#0ff" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <path d="M278 215 Q310 200 318 190" fill="none" stroke="#ff00ff" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <path d="M400 190 Q410 220 375 245" fill="none" stroke="#ff00ff" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <circle cx="160" cy="130" r="10" fill="#0ff" opacity="0.15" stroke="#0ff" stroke-width="1"/>
+      <text x="156" y="135" fill="#0ff" font-size="11" font-family="monospace" font-weight="bold">1</text>
+      <circle cx="270" cy="175" r="10" fill="#ff00ff" opacity="0.15" stroke="#ff00ff" stroke-width="1"/>
+      <text x="266" y="180" fill="#ff00ff" font-size="11" font-family="monospace" font-weight="bold">2</text>
+      <circle cx="360" cy="155" r="10" fill="#ff00ff" opacity="0.15" stroke="#ff00ff" stroke-width="1"/>
+      <text x="356" y="160" fill="#ff00ff" font-size="11" font-family="monospace" font-weight="bold">3</text>
+      <circle cx="420" cy="220" r="10" fill="#f55" opacity="0.15" stroke="#f55" stroke-width="1"/>
+      <text x="416" y="225" fill="#f55" font-size="11" font-family="monospace" font-weight="bold">4</text>
+    </svg>
+    <div class="legend">
+      <span style="color:#0ff;">① Rumen — microbial fermentation</span>
+      <span style="color:#ff00ff;">② Reticulum — sorts and regurgitates cud</span>
+      <span style="color:#ff00ff;">③ Omasum — absorbs water</span>
+      <span style="color:#f55;">④ Abomasum — true stomach, digests microbes</span>
+    </div>
+  </div>
+
+  <div class="microbe">
+    <span>🦠 Bacteria</span> — <em>Fibrobacter succinogenes</em><br>
+    Produces cellulase enzymes that break down cellulose from grass into glucose the cow can absorb.
+  </div>
+  <div class="microbe">
+    <span>🦠 Bacteria</span> — <em>Ruminococcus albus</em><br>
+    Works alongside Fibrobacter to digest cellulose — together they're responsible for most of the cow's energy supply.
+  </div>
+  <div class="microbe">
+    <span>🔬 Protozoa</span> — <em>Entodinium caudatum</em><br>
+    Engulfs starch grains and bacteria in the rumen. Helps recycle nitrogen and prevents too-fast fermentation which would cause dangerous bloat.
+  </div>
+  <div class="microbe">
+    <span>🍄 Fungi</span> — <em>Neocallimastix frontalis</em><br>
+    Physically penetrates tough plant stems with root-like structures, breaking down fibres that bacteria alone cannot reach.
+  </div>
+</section>
+
+<!-- SILAGE -->
+<section>
+  <h2>2. SILAGE</h2>
+  <p>In winter there's no fresh grass so farmers cut and preserve summer grass as silage. They pack
+  it airtight and bacteria naturally ferment it, producing lactic acid which drops the pH and
+  essentially pickles the grass. This prevents it from growing mould and keeps all the nutrients
+  protected in there for months. As long as no air gets in and the pH drops fast enough, cows can
+  eat nutritious silage all winter and keep producing milk.</p>
+
+  <p>The key bacteria responsible is <em>Lactobacillus plantarum</em> — a type of bacteria that
+  ferments sugars and drives the pH down from around 6.5 to 4.0. If something goes wrong and the
+  pH doesn't drop fast enough, harmful bacteria like <em>Clostridium butyricum</em> can take over
+  and rot the silage. If air gets in, the fungi <em>Aspergillus fumigatus</em> grows and produces
+  toxins that make cows sick.</p>
+
+  <div class="did-you-know">
+    💡 <strong>Did you know?</strong> The lactic acid fermentation in silage is the exact same
+    process used to make yoghurt and pickles. The bacteria are different species but the chemistry
+    is identical — acid preservation is one of the oldest food storage tricks in nature.
+  </div>
+
+  <!-- SILAGE DIAGRAM -->
+  <div class="diagram-wrap">
+    <p>How Silage Works</p>
+    <svg viewBox="0 0 520 260">
+      <!-- Step boxes -->
+      <!-- Step 1 -->
+      <rect x="10" y="80" width="85" height="60" rx="6" fill="#0a1a0a" stroke="#0ff" stroke-width="1.5"/>
+      <text x="52" y="106" fill="#0ff" font-size="10" font-family="monospace" text-anchor="middle">Cut</text>
+      <text x="52" y="120" fill="#0ff" font-size="10" font-family="monospace" text-anchor="middle">Grass 🌿</text>
+      <!-- Arrow -->
+      <line x1="95" y1="110" x2="115" y2="110" stroke="#0ff" stroke-width="1.5" marker-end="url(#arr)"/>
+      <!-- Step 2 -->
+      <rect x="115" y="80" width="85" height="60" rx="6" fill="#0a1a0a" stroke="#0ff" stroke-width="1.5"/>
+      <text x="157" y="106" fill="#0ff" font-size="10" font-family="monospace" text-anchor="middle">Pack</text>
+      <text x="157" y="120" fill="#0ff" font-size="10" font-family="monospace" text-anchor="middle">Airtight 📦</text>
+      <!-- Arrow -->
+      <line x1="200" y1="110" x2="220" y2="110" stroke="#0ff" stroke-width="1.5" marker-end="url(#arr)"/>
+      <!-- Step 3 -->
+      <rect x="220" y="80" width="85" height="60" rx="6" fill="#1a1a0a" stroke="#ff0" stroke-width="1.5"/>
+      <text x="262" y="100" fill="#ff0" font-size="9" font-family="monospace" text-anchor="middle">Bacteria</text>
+      <text x="262" y="113" fill="#ff0" font-size="9" font-family="monospace" text-anchor="middle">Ferment</text>
+      <text x="262" y="126" fill="#ff0" font-size="9" font-family="monospace" text-anchor="middle">⚗️ pH drops</text>
+      <!-- Arrow -->
+      <line x1="305" y1="110" x2="325" y2="110" stroke="#0ff" stroke-width="1.5" marker-end="url(#arr)"/>
+      <!-- Step 4 -->
+      <rect x="325" y="80" width="85" height="60" rx="6" fill="#1a0a0a" stroke="#f55" stroke-width="1.5"/>
+      <text x="367" y="106" fill="#f55" font-size="10" font-family="monospace" text-anchor="middle">Preserved</text>
+      <text x="367" y="120" fill="#f55" font-size="10" font-family="monospace" text-anchor="middle">Feed 🥩</text>
+      <!-- Arrow -->
+      <line x1="410" y1="110" x2="430" y2="110" stroke="#0ff" stroke-width="1.5" marker-end="url(#arr)"/>
+      <!-- Step 5 -->
+      <rect x="430" y="80" width="75" height="60" rx="6" fill="#0a1a0a" stroke="#0ff" stroke-width="1.5"/>
+      <text x="467" y="106" fill="#0ff" font-size="10" font-family="monospace" text-anchor="middle">Cows</text>
+      <text x="467" y="120" fill="#0ff" font-size="10" font-family="monospace" text-anchor="middle">fed 🐄🥛</text>
+
+      <!-- pH bar -->
+      <text x="220" y="180" fill="#aaa" font-size="10" font-family="monospace" text-anchor="middle">pH change during fermentation</text>
+      <rect x="100" y="190" width="240" height="14" rx="4" fill="url(#phgrad)"/>
+      <line x1="296" y1="186" x2="296" y2="208" stroke="#fff" stroke-width="2"/>
+      <text x="296" y="220" fill="#aaa" font-size="9" font-family="monospace" text-anchor="middle">pH 4.0 (safe)</text>
+      <line x1="316" y1="186" x2="316" y2="208" stroke="#f55" stroke-width="2" stroke-dasharray="3,2"/>
+      <text x="316" y="232" fill="#f55" font-size="9" font-family="monospace" text-anchor="middle">pH 6.5 (fresh grass)</text>
+
+      <defs>
+        <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#0ff"/>
+        </marker>
+        <linearGradient id="phgrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#b5451b"/>
+          <stop offset="50%" stop-color="#c9a84c"/>
+          <stop offset="100%" stop-color="#2d6a4f"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+
+  <div class="microbe">
+    <span>🦠 Bacteria (good)</span> — <em>Lactobacillus plantarum</em><br>
+    Ferments sugars in the grass into lactic acid, dropping pH from ~6.5 to ~4.0. This preserves the silage like a natural pickle.
+  </div>
+  <div class="microbe">
+    <span>🦠 Bacteria (good)</span> — <em>Leuconostoc mesenteroides</em><br>
+    Active in the first hours, uses up remaining oxygen so the main fermentation bacteria can take over.
+  </div>
+  <div class="microbe">
+    <span>🦠 Bacteria (harmful)</span> — <em>Clostridium butyricum</em><br>
+    Grows if pH doesn't drop fast enough. Converts lactic acid into butyric acid, rotting the silage and reducing its protein content.
+  </div>
+  <div class="microbe">
+    <span>🍄 Fungi (harmful)</span> — <em>Aspergillus fumigatus</em><br>
+    A mould that grows if silage is exposed to air. Produces mycotoxins that reduce milk yield and harm cow health.
+  </div>
+</section>
+
+<!-- SECTION 3: LEGUMES -->
+<section>
+  <h2>3. LEGUMES</h2>
+  <p>Legumes like clovers (<em>Trifolium repens</em>) and alfalfa (<em>Medicago sativa</em>) are
+  grown mixed in with grass to make the whole field more nutritious. The secret is bacteria living
+  on their roots that pull nitrogen straight out of the air and convert it into protein inside the
+  plant. So the legumes end up naturally packed with protein without needing fertiliser, so that
+  when cows eat them their gut microbes break that protein down into amino acids, the cow absorbs
+  it, and it goes straight into producing higher quality, more protein-rich milk. The dead roots
+  also fertilise the soil for free.</p>
+
+  <p>The bacteria responsible for this is <em>Rhizobium leguminosarum</em> — it lives inside
+  nodules on the legume roots and converts nitrogen gas (N₂) from the air into ammonia (NH₃) the
+  plant can use to build protein. This process is called nitrogen fixation and without it, legumes
+  would be nowhere near as nutritious. Once the cow eats the legume, gut bacteria like
+  <em>Prevotella ruminicola</em> break down the plant protein in the rumen into amino acids the
+  cow can actually absorb.</p>
+
+  <div class="did-you-know">
+    💡 <strong>Did you know?</strong> Farmers who grow clover in their fields can save thousands
+    of pounds a year on fertiliser — because <em>Rhizobium</em> bacteria do the same job for free.
+    It's one of the most important natural partnerships in all of agriculture.
+  </div>
+
+  <!-- LEGUME ROOT NODULE DIAGRAM -->
+  <div class="diagram-wrap">
+    <p>Nitrogen Fixation in Legume Roots</p>
+    <svg viewBox="0 0 520 280">
+      <!-- Soil line -->
+      <rect x="0" y="100" width="520" height="180" fill="#0a0800" opacity="0.6"/>
+      <line x1="0" y1="100" x2="520" y2="100" stroke="#654321" stroke-width="2" stroke-dasharray="6,4"/>
+      <text x="10" y="95" fill="#654321" font-size="10" font-family="monospace">soil level</text>
+
+      <!-- Stem above ground -->
+      <rect x="248" y="10" width="14" height="92" rx="4" fill="#1a4a1a" stroke="#0f0" stroke-width="1.5"/>
+      <!-- Leaves -->
+      <ellipse cx="220" cy="35" rx="28" ry="14" fill="#1a5a1a" stroke="#0f0" stroke-width="1" transform="rotate(-20,220,35)"/>
+      <ellipse cx="280" cy="55" rx="28" ry="14" fill="#1a5a1a" stroke="#0f0" stroke-width="1" transform="rotate(20,280,55)"/>
+      <text x="255" y="50" fill="#0f0" font-size="18" font-family="monospace">🍀</text>
+
+      <!-- Root -->
+      <path d="M255 100 Q255 140 255 200" fill="none" stroke="#8B4513" stroke-width="3"/>
+      <!-- Root branches -->
+      <path d="M255 140 Q220 155 200 170" fill="none" stroke="#8B4513" stroke-width="2"/>
+      <path d="M255 160 Q290 175 310 185" fill="none" stroke="#8B4513" stroke-width="2"/>
+      <path d="M255 180 Q230 200 215 215" fill="none" stroke="#8B4513" stroke-width="2"/>
+      <path d="M255 180 Q275 205 290 220" fill="none" stroke="#8B4513" stroke-width="2"/>
+
+      <!-- Nodules -->
+      <circle cx="200" cy="172" r="12" fill="#ff6633" stroke="#ff00ff" stroke-width="1.5"/>
+      <text x="195" y="176" fill="#fff" font-size="9" font-family="monospace">N</text>
+      <circle cx="312" cy="187" r="12" fill="#ff6633" stroke="#ff00ff" stroke-width="1.5"/>
+      <text x="307" y="191" fill="#fff" font-size="9" font-family="monospace">N</text>
+      <circle cx="215" cy="217" r="10" fill="#ff6633" stroke="#ff00ff" stroke-width="1.5"/>
+      <text x="210" y="221" fill="#fff" font-size="8" font-family="monospace">N</text>
+      <circle cx="290" cy="222" r="10" fill="#ff6633" stroke="#ff00ff" stroke-width="1.5"/>
+      <text x="285" y="226" fill="#fff" font-size="8" font-family="monospace">N</text>
+
+      <!-- Labels -->
+      <line x1="188" y1="172" x2="140" y2="155" stroke="#ff00ff" stroke-width="1"/>
+      <text x="10" y="150" fill="#ff00ff" font-size="10" font-family="monospace">Nodule containing</text>
+      <text x="10" y="163" fill="#ff00ff" font-size="10" font-family="monospace">Rhizobium bacteria</text>
+
+      <!-- N2 arrow from air -->
+      <text x="380" y="50" fill="#0ff" font-size="11" font-family="monospace">N₂ from air</text>
+      <line x1="390" y1="55" x2="340" y2="80" stroke="#0ff" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr2)"/>
+
+      <!-- NH3 arrow to plant -->
+      <text x="360" y="130" fill="#ff0" font-size="11" font-family="monospace">NH₃ → protein</text>
+      <line x1="370" y1="135" x2="330" y2="175" stroke="#ff0" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr3)"/>
+
+      <defs>
+        <marker id="arr2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#0ff"/>
+        </marker>
+        <marker id="arr3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#ff0"/>
+        </marker>
+      </defs>
+    </svg>
+    <div class="legend">
+      <span style="color:#ff00ff;">🔴 Root nodules — home of Rhizobium bacteria</span>
+      <span style="color:#0ff;">N₂ = nitrogen from air</span>
+      <span style="color:#ff0;">NH₃ = ammonia used to build protein</span>
+    </div>
+  </div>
+
+  <div class="microbe">
+    <span>🦠 Bacteria</span> — <em>Rhizobium leguminosarum</em><br>
+    Lives in nodules on legume roots. Fixes atmospheric N₂ into ammonia the plant uses to build protein. More plant protein = more cow protein = more milk protein.
+  </div>
+  <div class="microbe">
+    <span>🦠 Bacteria</span> — <em>Prevotella ruminicola</em><br>
+    Gut bacterium in the rumen that breaks down legume plant proteins into amino acids the cow absorbs directly into the bloodstream.
+  </div>
+</section>
+
+<!-- CONCLUSION -->
+<section class="conclusion">
+  <h2>CONCLUSION</h2>
+  <p>Microbes are behind almost everything that makes dairy farming possible. Without bacteria,
+  fungi and protozoa in the rumen, cows couldn't get any energy or protein from the grass they eat.
+  Without bacteria like <em>Lactobacillus plantarum</em>, there would be no silage and cows would
+  struggle to survive winter. Without <em>Rhizobium leguminosarum</em> in legume roots, the fields
+  wouldn't produce nearly enough protein-rich feed to keep milk production high. Every glass of
+  milk you've ever had exists because of microbes working invisibly at every step of the process.</p>
+</section>
+
+<!-- SOURCES -->
+<section class="sources">
+  <h2>SOURCES</h2>
+  <ul>
+    <li>BBC Bitesize — Microorganisms and their uses — <a href="https://www.bbc.co.uk/bitesize" target="_blank">bbc.co.uk/bitesize</a></li>
+    <li>Britannica — Ruminant digestion and the rumen microbiome — <a href="https://www.britannica.com" target="_blank">britannica.com</a></li>
+    <li>Science Direct — Fibrobacter succinogenes and cellulose digestion — <a href="https://www.sciencedirect.com" target="_blank">sciencedirect.com</a></li>
+    <li>Rothamsted Research — Legumes, nitrogen fixation and Rhizobium — <a href="https://www.rothamsted.ac.uk" target="_blank">rothamsted.ac.uk</a></li>
+    <li>Nature.com — Rumen microbiome and volatile fatty acid production — <a href="https://www.nature.com" target="_blank">nature.com</a></li>
+    <li>Wikipedia — Silage fermentation, Neocallimastix, Entodinium — <a href="https://www.wikipedia.org" target="_blank">wikipedia.org</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Anish's Bio Research Milk and Microbes :) </p>
+</footer>
+
+</body>
+</html>
